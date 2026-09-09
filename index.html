@@ -1,0 +1,904 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Movies</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
+</head>
+
+
+<body>
+
+
+    <header class="header">
+
+        <div class="container header__container">
+
+            <a href="#" class="logo">
+
+                <svg
+                    class="logo__icon"
+                    viewBox="0 0 40 40"
+                    xmlns="http://www.w3.org/2000/svg"
+                >
+                    <circle
+                        cx="20"
+                        cy="20"
+                        r="17"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                    />
+
+                    <circle
+                        cx="20"
+                        cy="20"
+                        r="7"
+                        fill="currentColor"
+                    />
+
+                    <path
+                        d="M20 3V10"
+                        stroke="currentColor"
+                        stroke-width="2"
+                    />
+
+                    <path
+                        d="M20 30V37"
+                        stroke="currentColor"
+                        stroke-width="2"
+                    />
+
+                    <path
+                        d="M3 20H10"
+                        stroke="currentColor"
+                        stroke-width="2"
+                    />
+
+                    <path
+                        d="M30 20H37"
+                        stroke="currentColor"
+                        stroke-width="2"
+                    />
+                </svg>
+
+                <span class="logo__text">
+                    Movies.
+                </span>
+
+            </a>
+
+
+            <nav class="navigation">
+
+                <a
+                    href="#"
+                    class="navigation__link navigation__link--active"
+                >
+                    Home
+                </a>
+
+                <a href="#" class="navigation__link">
+                    Explore
+                </a>
+
+                <a href="#" class="navigation__link">
+                    Genre
+                </a>
+
+                <a href="#" class="navigation__link">
+                    News
+                </a>
+
+                <a href="#" class="navigation__link">
+                    Movies
+                </a>
+
+                <a href="#" class="navigation__link">
+                    TV Shows
+                </a>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+
+    <main>
+
+
+        <section class="hero">
+
+            <div class="container hero__container">
+
+
+                <div class="hero__content">
+
+                    <p class="hero__subtitle">
+                        FIND MOVIES
+                    </p>
+
+                    <h1 class="hero__title">
+                        TV SHOWS
+                        <br>
+                        AND MORE
+                    </h1>
+
+                    <p class="hero__description">
+                        Lorem Ipsum has been the industry's
+                        standard dummy text ever since the
+                        1500s, when an unknown printer took
+                        a galley of type and scrambled it to
+                        make a type specimen book.
+                    </p>
+
+
+                    <button
+                        class="button button--tutorial"
+                        type="button"
+>
+
+                        <svg
+                            class="button__icon"
+                            viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <circle
+                                cx="12"
+                                cy="12"
+                                r="10"
+                                fill="currentColor"
+                            />
+
+                            <path
+                                d="M10 8L16 12L10 16V8Z"
+                                fill="white"
+                            />
+                        </svg>
+
+                        <span>
+                            Watch Tutorial
+                        </span>
+
+                    </button>
+
+                </div>
+
+
+                <div class="hero__media">
+
+
+                    <img
+                        class="hero__poster hero__poster--back"
+                        src="images/guardians.jpg"
+                        alt="Movie poster"
+                    >
+
+
+                    <div class="hero__poster-wrapper">
+
+                        <img
+                            class="hero__poster hero__poster--front"
+                            src="images/Spiderman.jpg"
+                            alt="Spider-Man movie poster"
+                        >
+
+
+                        <button
+                            class="hero__play"
+                            type="button"
+                            aria-label="Play trailer"
+                        >
+
+                            <svg
+                                class="hero__play-icon"
+                                viewBox="0 0 24 24"
+                                
+                            >
+                                <path
+                                    d="M9 6L18 12L9 18V6Z"
+                                    fill="currentColor"
+                                />
+                            </svg>
+
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <div class="container movies">
+
+
+            <section class="movie-section">
+
+
+                <div class="movie-section__header">
+
+                    <div class="movie-section__title">
+
+                        <svg
+                            class="movie-section__icon"
+                            viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <path
+                                d="M12 22C7 22 4 18.5 5 14C5.4 12.2 6.7 10.5 8.5 9
+                                C8.3 11.2 9.5 12.2 10.7 12.2
+                                C10.2 8.2 12.5 4.7 16.5 3
+                                C16.2 6.3 19 8 19 11.5
+                                C19 17.2 16.2 22 12 22Z"
+                                fill="currentColor"
+                            />
+                        </svg>
+
+                        <h2 class="movie-section__heading">
+                            Trending
+                        </h2>
+
+                    </div>
+
+
+                    <a
+                        href="#"
+                        class="movie-section__more"
+                    >
+                        See More
+                    </a>
+
+                </div>
+
+
+
+                <div class="movie-grid">
+
+
+                    <article class="movie-card">
+
+                        <img
+                            class="movie-card__image"
+                            src="images/guardians.jpg"
+                            alt="Guardians of the Galaxy"
+                        >
+<h3 class="movie-card__title">
+                            Guardians of the Galaxy 
+                        </h3>
+
+                        <p class="movie-card__info">
+                            2023 * 2h 30m
+                        </p>
+
+                    </article>
+
+
+
+                    <article class="movie-card">
+
+                        <img
+                            class="movie-card__image"
+                            src="images/shazam.jpg"
+                            alt="Shazam"
+                        >
+
+                        <h3 class="movie-card__title">
+                            Shazam!
+                        </h3>
+
+                        <p class="movie-card__info">
+                            <span>2023</span>
+                            <span>•</span>
+                            <span>104m</span>
+                        </p>
+
+                    </article>
+
+
+                    <article class="movie-card">
+
+                        <img
+                            class="movie-card__image"
+                            src="images/dungeons.jpg"
+                            alt="Dungeons and Dragons"
+                        >
+
+                        <h3 class="movie-card__title">
+                            Dungeons & Drageons
+                        </h3>
+
+                        <p class="movie-card__info">
+                            <span>2023</span>
+                            <span>•</span>
+                            <span>104m</span>
+                        </p>
+
+                    </article>
+
+
+
+                    <article class="movie-card">
+
+                        <img
+                            class="movie-card__image"
+                            src="images/medellin.jpg"
+                            alt="Medellin"
+                        >
+
+                        <h3 class="movie-card__title">
+                            Medellin
+                        </h3>
+
+                        <p class="movie-card__info">
+                            <span>2023</span>
+                            <span>•</span>
+                            <span>104m</span>
+                        </p>
+
+                    </article>
+
+
+                    <article class="movie-card">
+
+                        <img
+                            class="movie-card__image"
+                            src="images/john wick.jpg"
+                            alt="John Wick"
+                        >
+
+                        <h3 class="movie-card__title">
+                            John Wick
+                        </h3>
+
+                        <p class="movie-card__info">
+                            <span>2023</span>
+                            <span>•</span>
+                            <span>104m</span>
+                        </p>
+
+                    </article>
+
+
+                    <article class="movie-card">
+
+                        <img
+                            class="movie-card__image"
+                            src="images/spiderman.jpg"
+                            alt="Spider-Man"
+                        >
+
+                        <h3 class="movie-card__title">
+                            Spider-Man
+                        </h3>
+
+                        <p class="movie-card__info">
+                            <span>2023</span>
+                            <span>•</span>
+                            <span>104m</span>
+                        </p>
+
+                    </article>
+
+
+
+                    <article class="movie-card">
+
+                        <img
+                            class="movie-card__image"
+                            src="images/sistas.jpg"
+                            alt="Sistas"
+                        >
+<h3 class="movie-card__title">
+                            Sistas
+                        </h3>
+
+                        <p class="movie-card__info">
+                            <span>2023</span>
+                            <span>•</span>
+                            <span>104m</span>
+                        </p>
+
+                    </article>
+
+
+
+
+                    <article class="movie-card">
+
+                        <img
+                            class="movie-card__image"
+                            src="images/cube.jpg"
+                            alt="The Cube"
+                        >
+
+                        <h3 class="movie-card__title">
+                            The Cube
+                        </h3>
+
+                        <p class="movie-card__info">
+                            <span>2023</span>
+                            <span>•</span>
+                            <span>104m</span>
+                        </p>
+
+                    </article>
+
+
+
+
+                    <article class="movie-card">
+
+                        <img
+                            class="movie-card__image"
+                            src="images/nancy drew.jpg"
+                            alt="Nancy Drew"
+                        >
+
+                        <h3 class="movie-card__title">
+                            Nancy Drew
+                        </h3>
+
+                        <p class="movie-card__info">
+                            <span>2023</span>
+                            <span>•</span>
+                            <span>104m</span>
+                        </p>
+
+                    </article>
+
+
+
+
+                    <article class="movie-card">
+
+                        <img
+                            class="movie-card__image"
+                            src="images/rich in love.jpg"
+                            alt="Rich in Love"
+                        >
+
+                        <h3 class="movie-card__title">
+                            Rich in Love 2
+                        </h3>
+
+                        <p class="movie-card__info">
+                            <span>2023</span>
+                            <span>•</span>
+                            <span>104m</span>
+                        </p>
+
+                    </article>
+
+
+
+
+                    <article class="movie-card">
+
+                        <img
+                            class="movie-card__image"
+                            src="images/black demon.jpg"
+                            alt="The Black Demon"
+                        >
+
+                        <h3 class="movie-card__title">
+                            The Black Demon
+                        </h3>
+
+                        <p class="movie-card__info">
+                            <span>2023</span>
+                            <span>•</span>
+                            <span>104m</span>
+                        </p>
+
+                    </article>
+
+
+
+                    <article class="movie-card">
+
+                        <img
+                            class="movie-card__image"
+                            src="images/prank panel.jpg"
+                            alt="The Prank Panel"
+                        >
+
+                        <h3 class="movie-card__title">
+                            The Prank Panel
+                        </h3>
+
+                        <p class="movie-card__info">
+                            <span>2023</span>
+                            <span>•</span>
+                            <span>104m</span>
+                        </p>
+
+                    </article>
+
+                </div>
+
+            </section>
+
+
+
+
+            <section class="movie-section">
+
+
+                <div class="movie-section__header">
+
+                    <div class="movie-section__title">
+<h2 class="movie-section__heading">
+                            YOU MAY LIKE THIS
+                        </h2>
+
+                    </div>
+
+
+                    <a
+                        href="#"
+                        class="movie-section__more"
+                    >
+                        See More
+                    </a>
+
+                </div>
+
+
+
+                <div class="movie-grid">
+
+
+                    <article class="movie-card">
+
+                        <img
+                            class="movie-card__image"
+                            src="images/hypnotic.jpg"
+                            alt="Hypnotic"
+                        >
+
+                        <h3 class="movie-card__title">
+                            Hypnotic
+                        </h3>
+
+                        <p class="movie-card__info">
+                            <span>2023</span>
+                            <span>•</span>
+                            <span>104m</span>
+                        </p>
+
+                    </article>
+
+
+                    <article class="movie-card">
+
+                        <img
+                            class="movie-card__image"
+                            src="images/mojave diamonds.jpg"
+                            alt="Mojave Diamonds"
+                        >
+
+                        <h3 class="movie-card__title">
+                            Mojave Diamonds
+                        </h3>
+
+                        <p class="movie-card__info">
+                            <span>2023</span>
+                            <span>•</span>
+                            <span>104m</span>
+                        </p>
+
+                    </article>
+
+
+                    <article class="movie-card">
+
+                        <img
+                            class="movie-card__image"
+                            src="images/mojave.jpg"
+                            alt="Mojave"
+                        >
+
+                        <h3 class="movie-card__title">
+                            Mojave
+                        </h3>
+
+                        <p class="movie-card__info">
+                            <span>2023</span>
+                            <span>•</span>
+                            <span>104m</span>
+                        </p>
+
+                    </article>
+
+
+                    <article class="movie-card">
+
+                        <img
+                            class="movie-card__image"
+                            src="images/crossfire.jpg"
+                            alt="Crossfire"
+                        >
+
+                        <h3 class="movie-card__title">
+                            Crossfire
+                        </h3>
+
+                        <p class="movie-card__info">
+                            <span>2023</span>
+                            <span>•</span>
+                            <span>104m</span>
+                        </p>
+
+                    </article>
+
+
+                    <article class="movie-card">
+
+                        <img
+                            class="movie-card__image"
+                            src="images/fast X.jpg"
+                            alt="Fast X"
+                        >
+
+                        <h3 class="movie-card__title">
+                            Fast X
+                        </h3>
+
+                        <p class="movie-card__info">
+                            <span>2023</span>
+                            <span>•</span>
+                            <span>104m</span>
+                        </p>
+
+                    </article>
+
+
+                    <article class="movie-card">
+
+                        <img
+                            class="movie-card__image"
+                            src="images/pregnancy promise.jpg"
+                            alt="The Pregnancy Promise"
+                        >
+
+                        <h3 class="movie-card__title">
+                            The Pregnancy promise
+                        </h3>
+
+                        <p class="movie-card__info">
+<span>2023</span>
+                            <span>•</span>
+                            <span>104m</span>
+                        </p>
+
+                    </article>
+
+
+                    <article class="movie-card">
+
+                        <img
+                            class="movie-card__image"
+                            src="images/the days.jpg"
+                            alt="The Days"
+                        >
+
+                        <h3 class="movie-card__title">
+                            THE DAYS
+                        </h3>
+
+                        <p class="movie-card__info">
+                            <span>2023</span>
+                            <span>•</span>
+                            <span>104m</span>
+                        </p>
+
+                    </article>
+
+
+                    <article class="movie-card">
+
+                        <img
+                            class="movie-card__image"
+                            src="images/days of daisy.jpg"
+                            alt="Days of Daisy"
+                        >
+
+                        <h3 class="movie-card__title">
+                            Days of Daisy
+                        </h3>
+
+                        <p class="movie-card__info">
+                            <span>2023</span>
+                            <span>•</span>
+                            <span>104m</span>
+                        </p>
+
+                    </article>
+
+
+                    <article class="movie-card">
+
+                        <img
+                            class="movie-card__image"
+                            src="images/turn of tide.jpg"
+                            alt="Turn of the Tide"
+                        >
+
+                        <h3 class="movie-card__title">
+                            Turn of the Tide
+                        </h3>
+
+                        <p class="movie-card__info">
+                            <span>2023</span>
+                            <span>•</span>
+                            <span>104m</span>
+                        </p>
+
+                    </article>
+
+
+                    <article class="movie-card">
+
+                        <img
+                            class="movie-card__image"
+                            src="images/Prank panel.jpg"
+                            alt="The Prank Panel"
+                        >
+
+                        <h3 class="movie-card__title">
+                            The Prank Panel
+                        </h3>
+
+                        <p class="movie-card__info">
+                            <span>2023</span>
+                            <span>•</span>
+                            <span>104m</span>
+                        </p>
+
+                    </article>
+
+
+                    <article class="movie-card">
+
+                        <img
+                            class="movie-card__image"
+                            src="images/the idol.jpg"
+                            alt="The Idol"
+                        >
+
+                        <h3 class="movie-card__title">
+                            The Idol
+                        </h3>
+
+                        <p class="movie-card__info">
+                            <span>2023</span>
+                            <span>•</span>
+                            <span>104m</span>
+                        </p>
+
+                    </article>
+
+
+                    <article class="movie-card">
+
+                        <img
+                            class="movie-card__image"
+                            src="images/The Gryphon.jpg"
+                            alt="The Gryphon"
+                        >
+
+                        <h3 class="movie-card__title">
+                            The Gryphon
+                        </h3>
+
+                        <p class="movie-card__info">
+                            <span>2023</span>
+                            <span>•</span>
+                            <span>104m</span>
+                        </p>
+
+                    </article>
+
+                </div>
+
+            </section>
+</div>
+
+    </main>
+
+   <footer class="footer">
+    <div class="container footer__container">
+
+        <div class="footer__logo">
+            <a href="#" class="logo">
+
+                <svg
+                    class="logo__icon"
+                    viewBox="0 0 40 40"
+                    xmlns="http://www.w3.org/2000/svg"
+                >
+                    <circle
+                        cx="20"
+                        cy="20"
+                        r="17"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                    />
+
+                    <circle
+                        cx="20"
+                        cy="20"
+                        r="7"
+                        fill="currentColor"
+                    />
+
+                    <path
+                        d="M20 3V10"
+                        stroke="currentColor"
+                        stroke-width="2"
+                    />
+
+                    <path
+                        d="M20 30V37"
+                        stroke="currentColor"
+                        stroke-width="2"
+                    />
+
+                    <path
+                        d="M3 20H10"
+                        stroke="currentColor"
+                        stroke-width="2"
+                    />
+
+                    <path
+                        d="M30 20H37"
+                        stroke="currentColor"
+                        stroke-width="2"
+                    />
+                </svg>
+
+                <span class="logo__text">Movies.</span>
+
+            </a>
+        </div>
+
+        <nav class="footer__navigation">
+            <a href="#" class="footer__link">Home</a>
+            <a href="#" class="footer__link">Explore</a>
+            <a href="#" class="footer__link">Genre</a>
+            <a href="#" class="footer__link">News</a>
+            <a href="#" class="footer__link">Movies</a>
+            <a href="#" class="footer__link">TV Shows</a>
+        </nav>
+
+        <p class="footer__copyright">
+            © 2026 Movies. All rights reserved.
+        </p>
+
+    </div>
+</footer>
+</body>
+</html>
