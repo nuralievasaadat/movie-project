@@ -11,21 +11,24 @@
 
     <title>Movies</title>
 
-    <link rel="stylesheet" href="style.css">
-
     <link rel="preconnect" href="https://fonts.googleapis.com">
 
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
 
     <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;500;600;700&family=Just+Another+Hand&display=swap"
         rel="stylesheet"
     >
+
+    <link rel="stylesheet" href="style.css">
 </head>
 
 
 <body>
-
 
     <header class="header">
 
@@ -33,51 +36,11 @@
 
             <a href="#" class="logo">
 
-                <svg
-                    class="logo__icon"
-                    viewBox="0 0 40 40"
-                    xmlns="http://www.w3.org/2000/svg"
+                <img
+                    src="images/Mask group.png"
+                    alt="Movies logo"
+                    class="logo__image"
                 >
-                    <circle
-                        cx="20"
-                        cy="20"
-                        r="17"
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-width="2"
-                    />
-
-                    <circle
-                        cx="20"
-                        cy="20"
-                        r="7"
-                        fill="currentColor"
-                    />
-
-                    <path
-                        d="M20 3V10"
-                        stroke="currentColor"
-                        stroke-width="2"
-                    />
-
-                    <path
-                        d="M20 30V37"
-                        stroke="currentColor"
-                        stroke-width="2"
-                    />
-
-                    <path
-                        d="M3 20H10"
-                        stroke="currentColor"
-                        stroke-width="2"
-                    />
-
-                    <path
-                        d="M30 20H37"
-                        stroke="currentColor"
-                        stroke-width="2"
-                    />
-                </svg>
 
                 <span class="logo__text">
                     Movies.
@@ -124,10 +87,12 @@
 
     <main>
 
-
         <section class="hero">
 
             <div class="container hero__container">
+
+
+                <div class="hero__square"></div>
 
 
                 <div class="hero__content">
@@ -136,11 +101,11 @@
                         FIND MOVIES
                     </p>
 
+
                     <h1 class="hero__title">
-                        TV SHOWS
-                        <br>
-                        AND MORE
+                        TV SHOWS AND MORE
                     </h1>
+
 
                     <p class="hero__description">
                         Lorem Ipsum has been the industry's
@@ -154,13 +119,14 @@
                     <button
                         class="button button--tutorial"
                         type="button"
->
+                    >
 
                         <svg
                             class="button__icon"
                             viewBox="0 0 24 24"
                             xmlns="http://www.w3.org/2000/svg"
                         >
+
                             <circle
                                 cx="12"
                                 cy="12"
@@ -172,6 +138,7 @@
                                 d="M10 8L16 12L10 16V8Z"
                                 fill="white"
                             />
+
                         </svg>
 
                         <span>
@@ -182,9 +149,7 @@
 
                 </div>
 
-
                 <div class="hero__media">
-
 
                     <img
                         class="hero__poster hero__poster--back"
@@ -192,15 +157,13 @@
                         alt="Movie poster"
                     >
 
-
                     <div class="hero__poster-wrapper">
 
                         <img
-                            class="hero__poster hero__poster--front"
+class="hero__poster hero__poster--front"
                             src="images/Spiderman.jpg"
                             alt="Spider-Man movie poster"
                         >
-
 
                         <button
                             class="hero__play"
@@ -211,12 +174,13 @@
                             <svg
                                 class="hero__play-icon"
                                 viewBox="0 0 24 24"
-                                
                             >
+
                                 <path
                                     d="M9 6L18 12L9 18V6Z"
                                     fill="currentColor"
                                 />
+
                             </svg>
 
                         </button>
@@ -230,12 +194,10 @@
         </section>
 
 
-
         <div class="container movies">
 
 
             <section class="movie-section">
-
 
                 <div class="movie-section__header">
 
@@ -246,6 +208,7 @@
                             viewBox="0 0 24 24"
                             xmlns="http://www.w3.org/2000/svg"
                         >
+
                             <path
                                 d="M12 22C7 22 4 18.5 5 14C5.4 12.2 6.7 10.5 8.5 9
                                 C8.3 11.2 9.5 12.2 10.7 12.2
@@ -254,7 +217,9 @@
                                 C19 17.2 16.2 22 12 22Z"
                                 fill="currentColor"
                             />
+
                         </svg>
+
 
                         <h2 class="movie-section__heading">
                             Trending
@@ -273,9 +238,7 @@
                 </div>
 
 
-
                 <div class="movie-grid">
-
 
                     <article class="movie-card">
 
@@ -284,16 +247,18 @@
                             src="images/guardians.jpg"
                             alt="Guardians of the Galaxy"
                         >
-<h3 class="movie-card__title">
-                            Guardians of the Galaxy 
+
+                        <h3 class="movie-card__title">
+                            Guardians of the Galaxy
                         </h3>
 
                         <p class="movie-card__info">
-                            2023 * 2h 30m
+                            <span>2023</span>
+                            <span>•</span>
+                            <span>2h 30m</span>
                         </p>
 
                     </article>
-
 
 
                     <article class="movie-card">
@@ -326,17 +291,16 @@
                         >
 
                         <h3 class="movie-card__title">
-                            Dungeons & Drageons
+                            Dungeons & Dragons
                         </h3>
 
                         <p class="movie-card__info">
                             <span>2023</span>
-                            <span>•</span>
+<span>•</span>
                             <span>104m</span>
                         </p>
 
                     </article>
-
 
 
                     <article class="movie-card">
@@ -402,7 +366,6 @@
                     </article>
 
 
-
                     <article class="movie-card">
 
                         <img
@@ -410,7 +373,8 @@
                             src="images/sistas.jpg"
                             alt="Sistas"
                         >
-<h3 class="movie-card__title">
+
+                        <h3 class="movie-card__title">
                             Sistas
                         </h3>
 
@@ -421,8 +385,6 @@
                         </p>
 
                     </article>
-
-
 
 
                     <article class="movie-card">
@@ -446,8 +408,6 @@
                     </article>
 
 
-
-
                     <article class="movie-card">
 
                         <img
@@ -469,13 +429,11 @@
                     </article>
 
 
-
-
                     <article class="movie-card">
 
                         <img
                             class="movie-card__image"
-                            src="images/rich in love.jpg"
+src="images/rich in love.jpg"
                             alt="Rich in Love"
                         >
 
@@ -490,8 +448,6 @@
                         </p>
 
                     </article>
-
-
 
 
                     <article class="movie-card">
@@ -513,7 +469,6 @@
                         </p>
 
                     </article>
-
 
 
                     <article class="movie-card">
@@ -541,15 +496,15 @@
             </section>
 
 
-
+            <!-- YOU MAY LIKE THIS -->
 
             <section class="movie-section">
-
 
                 <div class="movie-section__header">
 
                     <div class="movie-section__title">
-<h2 class="movie-section__heading">
+
+                        <h2 class="movie-section__heading">
                             YOU MAY LIKE THIS
                         </h2>
 
@@ -566,9 +521,7 @@
                 </div>
 
 
-
                 <div class="movie-grid">
-
 
                     <article class="movie-card">
 
@@ -621,7 +574,7 @@
                         >
 
                         <h3 class="movie-card__title">
-                            Mojave
+Mojave
                         </h3>
 
                         <p class="movie-card__info">
@@ -684,11 +637,11 @@
                         >
 
                         <h3 class="movie-card__title">
-                            The Pregnancy promise
+                            The Pregnancy Promise
                         </h3>
 
                         <p class="movie-card__info">
-<span>2023</span>
+                            <span>2023</span>
                             <span>•</span>
                             <span>104m</span>
                         </p>
@@ -753,7 +706,7 @@
                         <p class="movie-card__info">
                             <span>2023</span>
                             <span>•</span>
-                            <span>104m</span>
+<span>104m</span>
                         </p>
 
                     </article>
@@ -824,81 +777,54 @@
                 </div>
 
             </section>
-</div>
+
+        </div>
 
     </main>
 
-   <footer class="footer">
-    <div class="container footer__container">
 
-        <div class="footer__logo">
-            <a href="#" class="logo">
+    <footer class="footer">
 
-                <svg
-                    class="logo__icon"
-                    viewBox="0 0 40 40"
-                    xmlns="http://www.w3.org/2000/svg"
-                >
-                    <circle
-                        cx="20"
-                        cy="20"
-                        r="17"
-                        fill="none"
-                        stroke="currentColor"
-                        stroke-width="2"
-                    />
+        <div class="container footer__container">
 
-                    <circle
-                        cx="20"
-                        cy="20"
-                        r="7"
-                        fill="currentColor"
-                    />
+            <div class="footer__logo">
 
-                    <path
-                        d="M20 3V10"
-                        stroke="currentColor"
-                        stroke-width="2"
-                    />
+                <a href="#" class="logo">
 
-                    <path
-                        d="M20 30V37"
-                        stroke="currentColor"
-                        stroke-width="2"
-                    />
+                    <img
+                        src="images/Mask group.png"
+                        alt="Movies logo"
+                        class="logo__image"
+                    >
 
-                    <path
-                        d="M3 20H10"
-                        stroke="currentColor"
-                        stroke-width="2"
-                    />
+                    <span class="logo__text">
+                        Movies.
+                    </span>
 
-                    <path
-                        d="M30 20H37"
-                        stroke="currentColor"
-                        stroke-width="2"
-                    />
-                </svg>
+                </a>
 
-                <span class="logo__text">Movies.</span>
+            </div>
 
-            </a>
+
+            <nav class="footer__navigation">
+
+                <a href="#" class="footer__link">Home</a>
+                <a href="#" class="footer__link">Explore</a>
+                <a href="#" class="footer__link">Genre</a>
+                <a href="#" class="footer__link">News</a>
+                <a href="#" class="footer__link">Movies</a>
+                <a href="#" class="footer__link">TV Shows</a>
+
+            </nav>
+
+
+            <p class="footer__copyright">
+                © 2026 Movies. All rights reserved.
+            </p>
+
         </div>
 
-        <nav class="footer__navigation">
-            <a href="#" class="footer__link">Home</a>
-            <a href="#" class="footer__link">Explore</a>
-            <a href="#" class="footer__link">Genre</a>
-            <a href="#" class="footer__link">News</a>
-            <a href="#" class="footer__link">Movies</a>
-            <a href="#" class="footer__link">TV Shows</a>
-        </nav>
+    </footer>
 
-        <p class="footer__copyright">
-            © 2026 Movies. All rights reserved.
-        </p>
-
-    </div>
-</footer>
 </body>
 </html>
