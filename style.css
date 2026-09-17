@@ -198,14 +198,14 @@ body::before {
 .hero__square {
     position: absolute;
 
-    left: 460px;
-    top: 310px;
+    left: 340px;
+    top: 190px;
 
-    width: 130px;
-    height: 185px;
+    width: 180px;
+    height: 370px;
 
-    border-top: 1px solid #cec7ff;
-    border-right: 1px solid #cec7ff;
+    border-top: 2px solid #cec7ff;
+    border-right: 2px solid #cec7ff;
 
     z-index: 0;
 
@@ -221,7 +221,7 @@ body::before {
     bottom: 0;
 
     width: 460px;
-    height: 1px;
+    height: 2px;
 
     background-color: #cec7ff;
 }
@@ -373,18 +373,16 @@ body::before {
 }
 
 
-
-
 .hero__media {
     position: absolute;
 
     right: 15px;
 
-    top: 55px;
+    top: 45px;
 
-    width: 444px;
+    width: 464px;
 
-    height: 425px;
+    height: 490px;
 
     z-index: 2;
 }
@@ -399,9 +397,9 @@ body::before {
 
 
 .hero__poster--back {
-    width: 260px;
+    width: 280px;
 
-    height: 340px;
+    height: 400px;
 
     right: 0;
 
@@ -415,9 +413,9 @@ body::before {
 .hero__poster-wrapper {
     position: absolute;
 
-    width: 290px;
+    width: 310px;
 
-    height: 375px;
+    height: 430px;
 
     left: 0;
 
@@ -488,7 +486,7 @@ body::before {
 
 
 .movies {
-    padding-top: 60px;
+    padding-top: 140px;
 
     padding-bottom: 70px;
 }
@@ -499,6 +497,24 @@ body::before {
     position: relative;
 
     width: 100%;
+}
+
+.movie-section__blob {
+    position: absolute;
+    left: -165px;
+    top: 40px;
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    background: radial-gradient(circle, #f4d9e4 0%, #e7e2fa 70%, transparent 100%);
+    filter: blur(1px);
+    z-index: 0;
+    pointer-events: none;
+}
+
+.movie-grid {
+    position: relative;
+    z-index: 1;
 }
 
 
@@ -544,13 +560,6 @@ body::before {
     color: #ed2c86;
 }
 
-
-
-.movie-section__more {
-    font-size: 0.56rem;
-
-    color: #555555;
-}
 
 
 .movie-section__more:hover {
@@ -607,14 +616,38 @@ body::before {
     font-family: "Bebas Neue", sans-serif;
 
     font-size: 38px;
-line-height: 1;
+    
+    line-height: 1;
 
     font-weight: 400;
 
     color: #1e1a3b;
 }
 
+.movie-section:nth-child(2) .movie-section__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    text-align: left;
+}
 
+.movie-section:nth-child(2) .movie-section__title {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0;
+}
+
+.movie-section:nth-child(2) .movie-section__heading {
+    margin: 0;
+    text-align: left;
+}
+
+.movie-section:nth-child(2) .movie-section__more {
+    margin-left: auto;
+}
 
 .movie-grid {
     display: grid;
