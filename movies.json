@@ -1,0 +1,171 @@
+[
+    {
+        "image": "images/guardians.jpg",
+        "title": "Guardians of the Galaxy",
+        "year": "2023",
+        "duration": "2h 30m",
+        "group": "trending"
+    },
+    {
+        "image": "images/shazam.jpg",
+        "title": "Shazam!",
+        "year": "2023",
+        "duration": "104m",
+        "group": "trending"
+    },
+    {
+        "image": "images/dungeons.jpg",
+        "title": "Dungeons & Dragons",
+        "year": "2023",
+        "duration": "104m",
+        "group": "trending"
+    },
+    {
+        "image": "images/medellin.jpg",
+        "title": "Medellin",
+        "year": "2023",
+        "duration": "104m",
+        "group": "trending"
+    },
+    {
+        "image": "images/john wick.jpg",
+        "title": "John Wick",
+        "year": "2023",
+        "duration": "104m",
+        "group": "trending"
+    },
+    {
+        "image": "images/spiderman.jpg",
+        "title": "Spider-Man",
+        "year": "2023",
+        "duration": "104m",
+        "group": "trending"
+    },
+    {
+        "image": "images/sistas.jpg",
+        "title": "Sistas",
+        "year": "2023",
+        "duration": "104m",
+        "group": "trending"
+    },
+    {
+        "image": "images/cube.jpg",
+        "title": "The Cube",
+        "year": "2023",
+        "duration": "104m",
+        "group": "trending"
+    },
+    {
+        "image": "images/nancy drew.jpg",
+        "title": "Nancy Drew",
+        "year": "2023",
+        "duration": "104m",
+        "group": "trending"
+    },
+    {
+        "image": "images/rich in love.jpg",
+        "title": "Rich in Love 2",
+        "year": "2023",
+        "duration": "104m",
+        "group": "trending"
+    },
+    {
+        "image": "images/black demon.jpg",
+        "title": "The Black Demon",
+        "year": "2023",
+        "duration": "104m",
+        "group": "trending"
+    },
+    {
+        "image": "images/prank panel.jpg",
+        "title": "The Prank Panel",
+        "year": "2023",
+        "duration": "104m",
+        "group": "trending"
+    },
+    {
+        "image": "images/hypnotic.jpg",
+        "title": "Hypnotic",
+        "year": "2023",
+        "duration": "104m",
+        "group": "youMayLikeThis"
+    },
+    {
+        "image": "images/mojave diamonds.jpg",
+        "title": "Mojave Diamonds",
+        "year": "2023",
+        "duration": "104m",
+        "group": "youMayLikeThis"
+    },
+    {
+        "image": "images/mojave.jpg",
+        "title": "Mojave",
+        "year": "2023",
+        "duration": "104m",
+        "group": "youMayLikeThis"
+    },
+    {
+        "image": "images/crossfire.jpg",
+        "title": "Crossfire",
+        "year": "2023",
+        "duration": "104m",
+        "group": "youMayLikeThis"
+    },
+    {
+        "image": "images/fast X.jpg",
+        "title": "Fast X",
+        "year": "2023",
+        "duration": "104m",
+        "group": "youMayLikeThis"
+    },
+    {
+        "image": "images/pregnancy promise.jpg",
+        "title": "The Pregnancy Promise",
+        "year": "2023",
+        "duration": "104m",
+        "group": "youMayLikeThis"
+    },
+    {
+        "image": "images/the days.jpg",
+        "title": "THE DAYS",
+        "year": "2023",
+        "duration": "104m",
+        "group": "youMayLikeThis"
+    },
+    {
+        "image": "images/days of daisy.jpg",
+        "title": "Days of Daisy",
+        "year": "2023",
+        "duration": "104m",
+        "group": "youMayLikeThis"
+    },
+    {
+        "image": "images/turn of tide.jpg",
+        "title": "Turn of the Tide",
+        "year": "2023",
+        "duration": "104m",
+        "group": "youMayLikeThis"
+    },
+    {
+        "image": "images/Prank panel.jpg",
+        "title": "The Prank Panel",
+        "year": "2023",
+        "duration": "104m",
+        "group": "youMayLikeThis"
+    },
+    {
+        "image": "images/the idol.jpg",
+        "title": "The Idol",
+        "year": "2023",
+        "duration": "104m",
+        "group": "youMayLikeThis"
+    },
+    {
+        "image": "images/The Gryphon.jpg",
+        "title": "The Gryphon",
+        "year": "2023",
+        "duration": "104m",
+        "group": "youMayLikeThis"
+    }
+]
+    
