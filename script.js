@@ -38,7 +38,7 @@ fetch("movies.json")
 const scrollTopButton = document.querySelector(".scroll-top");
 
 function toggleScrollTop() {
-    const show = window.scrollY > 1000;
+    const show = window.scrollY > 850;
     scrollTopButton.style.opacity = show ? "1" : "0";
     scrollTopButton.style.visibility = show ? "visible" : "hidden";
     scrollTopButton.style.transform = show ? "translateY(0)" : "translateY(10px)";
@@ -49,4 +49,34 @@ toggleScrollTop();
 
 scrollTopButton.addEventListener("click", () => {
     window.scrollTo({ top: 0, behavior: "smooth" });
+});
+
+document.querySelectorAll(".carousel").forEach(carousel => {
+    const track = carousel.querySelector(".movie-grid");
+    const prev = carousel.querySelector(".carousel__btn--prev");
+    const next = carousel.querySelector(".carousel__btn--next");
+
+    function updateButtons() {
+        prev.disabled = track.scrollLeft <= 1;
+        next.disabled =
+            track.scrollLeft + track.clientWidth >= track.scrollWidth - 1;
+    }
+
+    function scrollByPage(direction) {
+        const gap = parseFloat(getComputedStyle(track).columnGap) || 0;
+        track.scrollBy({
+            left: direction * (track.clientWidth + gap),
+            behavior: "smooth"
+        });
+    }
+
+    prev.addEventListener("click", () => scrollByPage(-1));
+    next.addEventListener("click", () => scrollByPage(1));
+
+    track.addEventListener("scroll", updateButtons);
+    window.addEventListener("resize", updateButtons);
+
+    new MutationObserver(updateButtons).observe(track, { childList: true });
+
+    updateButtons();
 });
